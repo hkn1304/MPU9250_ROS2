@@ -1,0 +1,4 @@
+Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hkn/mpu9250_ws/src/build/mpu9250_publisher
+Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hkn/mpu9250_ws/src/build/mpu9250_publisher

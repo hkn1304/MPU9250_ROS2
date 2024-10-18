@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/hkn/mpu9250_ws/src/mpu9250_publisher/config": No such file or
+  directory.
+
+[0m

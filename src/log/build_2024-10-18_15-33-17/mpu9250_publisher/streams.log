@@ -1,0 +1,46 @@
+[0.018s] Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target mpu9250[0m
+[0.171s] [ 33%] [32mBuilding CXX object CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o[0m
+[3.202s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:[m[K In constructor ‘[01m[KMPU9250Publisher::MPU9250Publisher()[m[K’:
+[3.202s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:33:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KreadAccelData[m[K’
+[3.203s]    33 |     mpu9250_.[01;31m[KreadAccelData[m[K(/*accelX, accelY, accelZ*/);
+[3.203s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[3.203s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:34:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KreadGyroData[m[K’
+[3.203s]    34 |     mpu9250_.[01;31m[KreadGyroData[m[K(/*gyroX, gyroY, gyroZ*/);
+[3.203s]       |              [01;31m[K^~~~~~~~~~~~[m[K
+[3.203s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:35:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KreadMagnetometerData[m[K’
+[3.203s]    35 |     mpu9250_.[01;31m[KreadMagnetometerData[m[K(/*magX, magY, magZ*/);
+[3.203s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.203s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid MPU9250Publisher::publish_imu_data()[m[K’:
+[3.203s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:43:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetAccX[m[K’
+[3.203s]    43 |     message.linear_acceleration.x =  mpu9250_.[01;31m[KgetAccX[m[K();
+[3.204s]       |                                               [01;31m[K^~~~~~~[m[K
+[3.204s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:44:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetAccY[m[K’
+[3.204s]    44 |     message.linear_acceleration.y =  mpu9250_.[01;31m[KgetAccY[m[K();
+[3.204s]       |                                               [01;31m[K^~~~~~~[m[K
+[3.204s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:45:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetAccZ[m[K’
+[3.204s]    45 |     message.linear_acceleration.z =  mpu9250_.[01;31m[KgetAccZ[m[K();
+[3.204s]       |                                               [01;31m[K^~~~~~~[m[K
+[3.204s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:47:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetGyroX[m[K’
+[3.204s]    47 |     message.angular_velocity.x = mpu9250_.[01;31m[KgetGyroX[m[K();
+[3.204s]       |                                           [01;31m[K^~~~~~~~[m[K
+[3.204s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:48:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetGyroY[m[K’
+[3.205s]    48 |     message.angular_velocity.y = mpu9250_.[01;31m[KgetGyroY[m[K();
+[3.205s]       |                                           [01;31m[K^~~~~~~~[m[K
+[3.205s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:49:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetGyroZ[m[K’
+[3.205s]    49 |     message.angular_velocity.z = mpu9250_.[01;31m[KgetGyroZ[m[K();
+[3.205s]       |                                           [01;31m[K^~~~~~~~[m[K
+[3.205s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid MPU9250Publisher::publish_mag_data()[m[K’:
+[3.205s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:58:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetMagX[m[K’
+[3.205s]    58 |     magneto.magnetic_field.x = mpu9250_.[01;31m[KgetMagX[m[K();
+[3.205s]       |                                         [01;31m[K^~~~~~~[m[K
+[3.205s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:59:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetMagY[m[K’
+[3.205s]    59 |     magneto.magnetic_field.y = mpu9250_.[01;31m[KgetMagY[m[K();
+[3.205s]       |                                         [01;31m[K^~~~~~~[m[K
+[3.205s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:60:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<MPU9250>[m[K’ has no member named ‘[01m[KgetMagZ[m[K’
+[3.205s]    60 |     magneto.magnetic_field.z = mpu9250_.[01;31m[KgetMagZ[m[K();
+[3.206s]       |                                         [01;31m[K^~~~~~~[m[K
+[4.475s] gmake[2]: *** [CMakeFiles/mpu9250.dir/build.make:76: CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o] Error 1
+[4.475s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu9250.dir/all] Error 2
+[4.475s] gmake: *** [Makefile:146: all] Error 2
+[4.478s] Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8

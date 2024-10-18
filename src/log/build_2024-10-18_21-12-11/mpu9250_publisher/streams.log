@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+[0.115s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.322s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.382s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.388s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.403s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.514s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.517s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.756s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.812s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.908s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.908s] -- Configured cppcheck include dirs: /home/hkn/mpu9250_ws/src/mpu9250_publisher/include
+[0.909s] -- Configured cppcheck exclude dirs and/or files: 
+[0.910s] -- Added test 'lint_cmake' to check CMake code style
+[0.912s] -- Added test 'uncrustify' to check C / C++ code style
+[0.912s] -- Configured uncrustify additional arguments: 
+[0.912s] -- Added test 'xmllint' to check XML markup files
+[0.915s] -- Configuring done
+[0.937s] -- Generating done
+[0.939s] -- Build files have been written to: /home/hkn/mpu9250_ws/src/build/mpu9250_publisher
+[0.979s] [35m[1mConsolidate compiler generated dependencies of target mpu9250[0m
+[1.030s] [100%] Built target mpu9250
+[1.045s] Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+[1.091s] Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hkn/mpu9250_ws/src/build/mpu9250_publisher
+[1.100s] -- Install configuration: ""
+[1.101s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/lib/mpu9250_publisher/mpu9250
+[1.101s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher
+[1.102s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher/mpu9250_publisher
+[1.102s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher/mpu9250_publisher/mpu9250.hpp
+[1.102s] [31mCMake Error at cmake_install.cmake:70 (file):
+[1.102s]   file INSTALL cannot find
+[1.102s]   "/home/hkn/mpu9250_ws/src/mpu9250_publisher/config": No such file or
+[1.102s]   directory.
+[1.103s] 
+[1.103s] [0m
+[1.104s] Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hkn/mpu9250_ws/src/build/mpu9250_publisher

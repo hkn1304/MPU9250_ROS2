@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target mpu9250[0m
+[0.090s] [ 33%] [32mBuilding CXX object CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o[0m
+[5.646s] [ 66%] [32m[1mLinking CXX executable mpu9250[0m
+[5.902s] [100%] Built target mpu9250
+[5.914s] Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+[5.960s] Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hkn/mpu9250_ws/src/build/mpu9250_publisher
+[5.968s] -- Install configuration: ""
+[5.969s] -- Installing: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/lib/mpu9250_publisher/mpu9250
+[5.970s] -- Set runtime path of "/home/hkn/mpu9250_ws/src/install/mpu9250_publisher/lib/mpu9250_publisher/mpu9250" to ""
+[5.971s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher
+[5.971s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher/mpu9250_publisher
+[5.971s] -- Installing: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher/mpu9250_publisher/mpu9250.hpp
+[5.971s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/ament_index/resource_index/package_run_dependencies/mpu9250_publisher
+[5.971s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/ament_index/resource_index/parent_prefix_path/mpu9250_publisher
+[5.971s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/environment/ament_prefix_path.sh
+[5.971s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/environment/ament_prefix_path.dsv
+[5.971s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/environment/path.sh
+[5.972s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/environment/path.dsv
+[5.972s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/local_setup.bash
+[5.972s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/local_setup.sh
+[5.972s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/local_setup.zsh
+[5.972s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/local_setup.dsv
+[5.972s] -- Installing: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/package.dsv
+[5.972s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/ament_index/resource_index/packages/mpu9250_publisher
+[5.973s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/cmake/mpu9250_publisherConfig.cmake
+[5.973s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/cmake/mpu9250_publisherConfig-version.cmake
+[5.973s] -- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/package.xml
+[5.976s] Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hkn/mpu9250_ws/src/build/mpu9250_publisher

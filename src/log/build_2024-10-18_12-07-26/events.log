@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000708] (mpu9250_publisher) JobQueued: {'identifier': 'mpu9250_publisher', 'dependencies': OrderedDict()}
+[0.000762] (mpu9250_publisher) JobStarted: {'identifier': 'mpu9250_publisher'}
+[0.014318] (mpu9250_publisher) JobProgress: {'identifier': 'mpu9250_publisher', 'progress': 'cmake'}
+[0.015218] (mpu9250_publisher) JobProgress: {'identifier': 'mpu9250_publisher', 'progress': 'build'}
+[0.016036] (mpu9250_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher', '--', '-j8', '-l8'], 'cwd': '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hkn'), ('LC_TIME', 'tr_TR.UTF-8'), ('GIO_MODULE_DIR', '/home/hkn/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hkn'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/hkn/mpu9250_ws'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/hkn/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/172/usr/share/code/code'), ('MANAGERPID', '1609'), ('SYSTEMD_EXEC_PID', '1785'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4271'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hkn'), ('JOURNAL_STREAM', '8:14754'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'hkn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hkn/.local/bin:/opt/ros/humble/bin:/home/hkn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hkn:@/tmp/.ICE-unix/1762,unix/hkn:/tmp/.ICE-unix/1762'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', 'f6a94af2b3c7437ebc3d30db9eebb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EYEZV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96e107b5f2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/hkn/snap/code/172/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/hkn/snap/code/172/.local/share:/home/hkn/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068717] (mpu9250_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu9250\x1b[0m\n'}
+[0.091520] (mpu9250_publisher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o\x1b[0m\n'}
+[0.099661] (-) TimerEvent: {}
+[0.200090] (-) TimerEvent: {}
+[0.300575] (-) TimerEvent: {}
+[0.401029] (-) TimerEvent: {}
+[0.501514] (-) TimerEvent: {}
+[0.602005] (-) TimerEvent: {}
+[0.702695] (-) TimerEvent: {}
+[0.803169] (-) TimerEvent: {}
+[0.903504] (-) TimerEvent: {}
+[1.003835] (-) TimerEvent: {}
+[1.104182] (-) TimerEvent: {}
+[1.204611] (-) TimerEvent: {}
+[1.304964] (-) TimerEvent: {}
+[1.405332] (-) TimerEvent: {}
+[1.505663] (-) TimerEvent: {}
+[1.605996] (-) TimerEvent: {}
+[1.706333] (-) TimerEvent: {}
+[1.806666] (-) TimerEvent: {}
+[1.907001] (-) TimerEvent: {}
+[2.007347] (-) TimerEvent: {}
+[2.107686] (-) TimerEvent: {}
+[2.208021] (-) TimerEvent: {}
+[2.308378] (-) TimerEvent: {}
+[2.408707] (-) TimerEvent: {}
+[2.509045] (-) TimerEvent: {}
+[2.609426] (-) TimerEvent: {}
+[2.709782] (-) TimerEvent: {}
+[2.810174] (-) TimerEvent: {}
+[2.910501] (-) TimerEvent: {}
+[3.010836] (-) TimerEvent: {}
+[3.111168] (-) TimerEvent: {}
+[3.140827] (mpu9250_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.141061] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.141158] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.141240] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.141309] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.141378] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.141446] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.141514] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.141580] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.141648] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.141714] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.141779] (mpu9250_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:4\x1b[m\x1b[K:\n'}
+[3.141844] (mpu9250_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MPU9250Publisher::publish_imu_data()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.141913] (mpu9250_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:40:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.141986] (mpu9250_publisher) StderrLine: {'line': b'   40 |     RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing: \'%d\'"\x1b[m\x1b[K, message);\n'}
+[3.142052] (mpu9250_publisher) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.142172] (mpu9250_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:40:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.142295] (mpu9250_publisher) StderrLine: {'line': b'   40 |     RCLCPP_INFO(this->get_logger(), "Publishing: \'\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\'", message);\n'}
+[3.142409] (mpu9250_publisher) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.142523] (mpu9250_publisher) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.142637] (mpu9250_publisher) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.211299] (-) TimerEvent: {}
+[3.311632] (-) TimerEvent: {}
+[3.412048] (-) TimerEvent: {}
+[3.512507] (-) TimerEvent: {}
+[3.612866] (-) TimerEvent: {}
+[3.713349] (-) TimerEvent: {}
+[3.813759] (-) TimerEvent: {}
+[3.914157] (-) TimerEvent: {}
+[4.014579] (-) TimerEvent: {}
+[4.114961] (-) TimerEvent: {}
+[4.215382] (-) TimerEvent: {}
+[4.315735] (-) TimerEvent: {}
+[4.416093] (-) TimerEvent: {}
+[4.516402] (-) TimerEvent: {}
+[4.616726] (-) TimerEvent: {}
+[4.717048] (-) TimerEvent: {}
+[4.817377] (-) TimerEvent: {}
+[4.917718] (-) TimerEvent: {}
+[5.018050] (-) TimerEvent: {}
+[5.118377] (-) TimerEvent: {}
+[5.218712] (-) TimerEvent: {}
+[5.319035] (-) TimerEvent: {}
+[5.419378] (-) TimerEvent: {}
+[5.519720] (-) TimerEvent: {}
+[5.572265] (mpu9250_publisher) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable mpu9250\x1b[0m\n'}
+[5.619847] (-) TimerEvent: {}
+[5.720228] (-) TimerEvent: {}
+[5.808476] (mpu9250_publisher) StdoutLine: {'line': b'[100%] Built target mpu9250\n'}
+[5.820323] (-) TimerEvent: {}
+[5.821402] (mpu9250_publisher) CommandEnded: {'returncode': 0}
+[5.851478] (mpu9250_publisher) JobProgress: {'identifier': 'mpu9250_publisher', 'progress': 'install'}
+[5.861530] (mpu9250_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher'], 'cwd': '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hkn'), ('LC_TIME', 'tr_TR.UTF-8'), ('GIO_MODULE_DIR', '/home/hkn/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hkn'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/hkn/mpu9250_ws'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/hkn/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/172/usr/share/code/code'), ('MANAGERPID', '1609'), ('SYSTEMD_EXEC_PID', '1785'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4271'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hkn'), ('JOURNAL_STREAM', '8:14754'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'hkn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hkn/.local/bin:/opt/ros/humble/bin:/home/hkn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hkn:@/tmp/.ICE-unix/1762,unix/hkn:/tmp/.ICE-unix/1762'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', 'f6a94af2b3c7437ebc3d30db9eebb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EYEZV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96e107b5f2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/hkn/snap/code/172/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/hkn/snap/code/172/.local/share:/home/hkn/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.870689] (mpu9250_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.871033] (mpu9250_publisher) StdoutLine: {'line': b'-- Installing: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/lib/mpu9250_publisher/mpu9250\n'}
+[5.872588] (mpu9250_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/hkn/mpu9250_ws/src/install/mpu9250_publisher/lib/mpu9250_publisher/mpu9250" to ""\n'}
+[5.872957] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher\n'}
+[5.873155] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher/mpu9250_publisher\n'}
+[5.873347] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/include/mpu9250_publisher/mpu9250_publisher/mpu9250.hpp\n'}
+[5.873541] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/ament_index/resource_index/package_run_dependencies/mpu9250_publisher\n'}
+[5.873715] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/ament_index/resource_index/parent_prefix_path/mpu9250_publisher\n'}
+[5.874055] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/environment/ament_prefix_path.sh\n'}
+[5.874234] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/environment/ament_prefix_path.dsv\n'}
+[5.874390] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/environment/path.sh\n'}
+[5.874545] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/environment/path.dsv\n'}
+[5.874752] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/local_setup.bash\n'}
+[5.874894] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/local_setup.sh\n'}
+[5.875042] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/local_setup.zsh\n'}
+[5.875184] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/local_setup.dsv\n'}
+[5.875306] (mpu9250_publisher) StdoutLine: {'line': b'-- Installing: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/package.dsv\n'}
+[5.875421] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/ament_index/resource_index/packages/mpu9250_publisher\n'}
+[5.875535] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/cmake/mpu9250_publisherConfig.cmake\n'}
+[5.875648] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/cmake/mpu9250_publisherConfig-version.cmake\n'}
+[5.875760] (mpu9250_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/hkn/mpu9250_ws/src/install/mpu9250_publisher/share/mpu9250_publisher/package.xml\n'}
+[5.876883] (mpu9250_publisher) CommandEnded: {'returncode': 0}
+[5.920411] (-) TimerEvent: {}
+[5.931033] (mpu9250_publisher) JobEnded: {'identifier': 'mpu9250_publisher', 'rc': 0}
+[5.932130] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8

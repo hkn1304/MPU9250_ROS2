@@ -1,0 +1,17 @@
+[0.013s] Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+[0.072s] [ 33%] [32mBuilding CXX object CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o[0m
+[0.072s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu9250.dir/src/mpu9250.cpp.o[0m
+[0.081s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmpu9250.hpp: No such file or directory
+[0.081s]     1 | #include [01;31m[K"mpu9250.hpp"[m[K
+[0.081s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.081s] compilation terminated.
+[0.082s] gmake[2]: *** [CMakeFiles/mpu9250.dir/build.make:90: CMakeFiles/mpu9250.dir/src/mpu9250.cpp.o] Error 1
+[0.082s] gmake[2]: *** Waiting for unfinished jobs....
+[0.384s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmpu9250_publisher/mpu9250.hpp: No such file or directory
+[0.384s]     6 | #include [01;31m[K"mpu9250_publisher/mpu9250.hpp"[m[K
+[0.385s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.385s] compilation terminated.
+[0.397s] gmake[2]: *** [CMakeFiles/mpu9250.dir/build.make:76: CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o] Error 1
+[0.397s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu9250.dir/all] Error 2
+[0.399s] gmake: *** [Makefile:146: all] Error 2
+[0.414s] Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8

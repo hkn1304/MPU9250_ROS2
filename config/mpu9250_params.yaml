@@ -1,0 +1,4 @@
+mpu_publisher:
+  ros__parameters:
+    i2c_buse: 1
+    i2c_address: 0x68

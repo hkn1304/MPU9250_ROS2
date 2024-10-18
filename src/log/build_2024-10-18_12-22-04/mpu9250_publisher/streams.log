@@ -1,0 +1,39 @@
+[0.014s] Invoking command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target mpu9250[0m
+[0.104s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o[0m
+[0.104s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu9250.dir/src/mpu9250.cpp.o[0m
+[3.135s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:[m[K In constructor ‘[01m[KMPU9250Publisher::MPU9250Publisher()[m[K’:
+[3.135s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[KaccelX[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccess[m[K’?
+[3.135s]    21 |     mpu9250_.readAccelData([01;31m[KaccelX[m[K, accelY, accelZ);
+[3.135s]       |                            [01;31m[K^~~~~~[m[K
+[3.135s]       |                            [32m[Kaccess[m[K
+[3.140s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:21:36:[m[K [01;31m[Kerror: [m[K‘[01m[KaccelY[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccess[m[K’?
+[3.140s]    21 |     mpu9250_.readAccelData(accelX, [01;31m[KaccelY[m[K, accelZ);
+[3.140s]       |                                    [01;31m[K^~~~~~[m[K
+[3.140s]       |                                    [32m[Kaccess[m[K
+[3.146s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:21:44:[m[K [01;31m[Kerror: [m[K‘[01m[KaccelZ[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccess[m[K’?
+[3.146s]    21 |     mpu9250_.readAccelData(accelX, accelY, [01;31m[KaccelZ[m[K);
+[3.146s]       |                                            [01;31m[K^~~~~~[m[K
+[3.146s]       |                                            [32m[Kaccess[m[K
+[3.151s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:22:27:[m[K [01;31m[Kerror: [m[K‘[01m[KgyroX[m[K’ was not declared in this scope
+[3.151s]    22 |     mpu9250_.readGyroData([01;31m[KgyroX[m[K, gyroY, gyroZ);
+[3.151s]       |                           [01;31m[K^~~~~[m[K
+[3.156s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:22:34:[m[K [01;31m[Kerror: [m[K‘[01m[KgyroY[m[K’ was not declared in this scope
+[3.156s]    22 |     mpu9250_.readGyroData(gyroX, [01;31m[KgyroY[m[K, gyroZ);
+[3.156s]       |                                  [01;31m[K^~~~~[m[K
+[3.162s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[KgyroZ[m[K’ was not declared in this scope
+[3.162s]    22 |     mpu9250_.readGyroData(gyroX, gyroY, [01;31m[KgyroZ[m[K);
+[3.162s]       |                                         [01;31m[K^~~~~[m[K
+[3.167s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:23:35:[m[K [01;31m[Kerror: [m[K‘[01m[KmagX[m[K’ was not declared in this scope
+[3.167s]    23 |     mpu9250_.readMagnetometerData([01;31m[KmagX[m[K, magY, magZ);
+[3.167s]       |                                   [01;31m[K^~~~[m[K
+[3.172s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:23:41:[m[K [01;31m[Kerror: [m[K‘[01m[KmagY[m[K’ was not declared in this scope
+[3.172s]    23 |     mpu9250_.readMagnetometerData(magX, [01;31m[KmagY[m[K, magZ);
+[3.172s]       |                                         [01;31m[K^~~~[m[K
+[3.177s] [01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:23:47:[m[K [01;31m[Kerror: [m[K‘[01m[KmagZ[m[K’ was not declared in this scope
+[3.177s]    23 |     mpu9250_.readMagnetometerData(magX, magY, [01;31m[KmagZ[m[K);
+[3.177s]       |                                               [01;31m[K^~~~[m[K
+[4.228s] gmake[2]: *** [CMakeFiles/mpu9250.dir/build.make:76: CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o] Error 1
+[4.229s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu9250.dir/all] Error 2
+[4.229s] gmake: *** [Makefile:146: all] Error 2
+[4.231s] Invoked command in '/home/hkn/mpu9250_ws/src/build/mpu9250_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hkn/mpu9250_ws/src/build/mpu9250_publisher -- -j8 -l8

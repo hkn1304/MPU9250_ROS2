@@ -1,0 +1,34 @@
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:[m[K In constructor ‘[01m[KMPU9250Publisher::MPU9250Publisher()[m[K’:
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[KaccelX[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccess[m[K’?
+   21 |     mpu9250_.readAccelData([01;31m[KaccelX[m[K, accelY, accelZ);
+      |                            [01;31m[K^~~~~~[m[K
+      |                            [32m[Kaccess[m[K
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:21:36:[m[K [01;31m[Kerror: [m[K‘[01m[KaccelY[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccess[m[K’?
+   21 |     mpu9250_.readAccelData(accelX, [01;31m[KaccelY[m[K, accelZ);
+      |                                    [01;31m[K^~~~~~[m[K
+      |                                    [32m[Kaccess[m[K
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:21:44:[m[K [01;31m[Kerror: [m[K‘[01m[KaccelZ[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccess[m[K’?
+   21 |     mpu9250_.readAccelData(accelX, accelY, [01;31m[KaccelZ[m[K);
+      |                                            [01;31m[K^~~~~~[m[K
+      |                                            [32m[Kaccess[m[K
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:22:27:[m[K [01;31m[Kerror: [m[K‘[01m[KgyroX[m[K’ was not declared in this scope
+   22 |     mpu9250_.readGyroData([01;31m[KgyroX[m[K, gyroY, gyroZ);
+      |                           [01;31m[K^~~~~[m[K
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:22:34:[m[K [01;31m[Kerror: [m[K‘[01m[KgyroY[m[K’ was not declared in this scope
+   22 |     mpu9250_.readGyroData(gyroX, [01;31m[KgyroY[m[K, gyroZ);
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[KgyroZ[m[K’ was not declared in this scope
+   22 |     mpu9250_.readGyroData(gyroX, gyroY, [01;31m[KgyroZ[m[K);
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:23:35:[m[K [01;31m[Kerror: [m[K‘[01m[KmagX[m[K’ was not declared in this scope
+   23 |     mpu9250_.readMagnetometerData([01;31m[KmagX[m[K, magY, magZ);
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:23:41:[m[K [01;31m[Kerror: [m[K‘[01m[KmagY[m[K’ was not declared in this scope
+   23 |     mpu9250_.readMagnetometerData(magX, [01;31m[KmagY[m[K, magZ);
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:23:47:[m[K [01;31m[Kerror: [m[K‘[01m[KmagZ[m[K’ was not declared in this scope
+   23 |     mpu9250_.readMagnetometerData(magX, magY, [01;31m[KmagZ[m[K);
+      |                                               [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/mpu9250.dir/build.make:76: CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu9250.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

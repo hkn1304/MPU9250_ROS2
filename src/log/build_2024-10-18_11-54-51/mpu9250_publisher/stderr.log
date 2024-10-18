@@ -1,0 +1,13 @@
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmpu9250.hpp: No such file or directory
+    1 | #include [01;31m[K"mpu9250.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mpu9250.dir/build.make:90: CMakeFiles/mpu9250.dir/src/mpu9250.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/hkn/mpu9250_ws/src/mpu9250_publisher/src/mpu9250_publisher_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kinclude/mpu9250_publisher/mpu9250.hpp: No such file or directory
+    6 | #include [01;31m[K"include/mpu9250_publisher/mpu9250.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mpu9250.dir/build.make:76: CMakeFiles/mpu9250.dir/src/mpu9250_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu9250.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
